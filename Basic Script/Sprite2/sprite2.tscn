@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://yqqggau4382p"]
+
+[sub_resource type="Gradient" id="Gradient_splvt"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_sdgr7"]
+gradient = SubResource("Gradient_splvt")
+
+[node name="Sprite2" type="Sprite2D"]
+position = Vector2(289, 285)
+scale = Vector2(3.61816, 2.47968)
+texture = SubResource("GradientTexture2D_sdgr7")
